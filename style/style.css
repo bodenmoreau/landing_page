@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com');
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
 }
 
 /*Hero*/
@@ -101,6 +103,7 @@ ul {
     border: 3px solid #3882f6;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
 }
 #boxes {
     display: flex;
@@ -132,26 +135,45 @@ ul {
     color: #1f2937;
 }
 
-
+/*Call to action*/
 .container-four {
     background-color: #ffffff;
+}
+
+#cta-box {
+    background-color: #3882f6;
+    display: flex;
+    color: #f9faf8;
+    margin: 50px 100px 50px 100px;
+    padding: 30px 70px 30px 70px;
+    border-radius: 8px;
+}
+
+.cta-head {
+    margin: 0;
+}
+.cta-txt {
+    display: flex;
+    flex-direction: column;
 }
 
 #cta-sign-up {
     border-radius: 4px;
     background-color: #3882f6;
     align-self: flex-start;
-    border: 2px;
-    border-color: #f9faf8;
+    border: 3px solid #f9faf8;
     padding: 5px 15px;
     color: #f9faf8;
     font-weight: bold;
+    margin: auto;
 }
 
+/*Footer*/
 .footer {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
     font-size: 16px;
     color: #ffffff;
+    margin-top: auto;
 }
