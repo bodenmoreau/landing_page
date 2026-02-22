@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com');
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+background-color: #1f2937;
+}
+
+.container-two {
+    background-color: #ffffff;
+}
+
+.container-three {
+    background-color: #e5e7eb;
+}
+
+.container-four {
+    background-color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    font-size: 16px;
+    color: #ffffff;
+}
