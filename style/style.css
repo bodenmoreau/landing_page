@@ -1,16 +1,90 @@
 @import url('https://fonts.googleapis.com');
-
-#logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-.hero {
-background-color: #1f2937;
+/*Hero*/
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
 }
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 14px;
+}
+
+#nav {
+    font-size: 16px;
+    color: #e5e6eb;
+    display: flex;
+    gap: 24px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#hero-secondary-text {
+    margin: 0px;
+    font-size: 18px;
+    color: #e5e6eb;
+}
+
+#placeholder-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    width: 500px;
+    height: 200px;
+    background-color: #e5e7eb;
+    flex-shrink: 0;
+}
+
+#sign-up {
+    border-radius: 4px;
+    background-color: #3882f6;
+    align-self: flex-start;
+    border: 0px;
+    padding: 5px 15px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+.container-one-a {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+}
+.container-one {
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
 
 .container-two {
     background-color: #ffffff;
@@ -22,6 +96,17 @@ background-color: #1f2937;
 
 .container-four {
     background-color: #ffffff;
+}
+
+#cta-sign-up {
+    border-radius: 4px;
+    background-color: #3882f6;
+    align-self: flex-start;
+    border: 2px;
+    border-color: #f9faf8;
+    padding: 5px 15px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .footer {
